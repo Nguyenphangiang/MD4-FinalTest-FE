@@ -32,48 +32,46 @@
 </table>
 <h3>Thêm Thành Phố</h3>
 
+            <div class="container" >
+                <form>
 
-              <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Tên thành phố</label>
+                        <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
 
-                       <div class="mb-3">
-                            <label for="name" class="form-label">Tên thành phố</label>
-                            <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="acreage" class="form-label">Diện Tích</label>
+                        <input type="text" class="form-control" id="acreage">
+                    </div>
+                    <div class="mb-3">
+                        <label for="population" class="form-label">Dân Số</label>
+                        <input type="text" class="form-control" id="population">
+                    </div>
+                    <div class="mb-3">
+                        <label for="gdp" class="form-label">GDP</label>
+                        <input type="text" class="form-control" id="gdp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="list-country">Quốc Gia</label>
+                        <select  id="list-country">
 
-                        </div>
-                        <div class="mb-3">
-                            <label for="acreage" class="form-label">Diện Tích</label>
-                            <input type="text" class="form-control" id="acreage">
-                        </div>
-                        <div class="mb-3">
-                            <label for="population" class="form-label">Dân Số</label>
-                            <input type="text" class="form-control" id="population">
-                        </div>
-                        <div class="mb-3">
-                            <label for="gdp" class="form-label">GDP</label>
-                            <input type="text" class="form-control" id="gdp">
-                        </div>
-                        <div class="mb-3">
-                            <label for="list-country">Quốc Gia</label>
-                            <select  id="list-country">
-
-                            </select>
-                        </div>
-                        <div class="mb-3">
-                            <label for="description" class="form-label">Mô Tả</label>
-                            <textarea  id="description" cols="30" rows="10"></textarea>
-                        </div>
-                  <div class="mb-3">
-                            <button type="submit" onclick="addCity()">Thêm</button>
-                        </div>
-
-                </div>
-
-
-            </form>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="description" class="form-label">Mô Tả</label>
+                        <textarea  id="description" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <button type="submit" onclick="addCity()">Thêm</button>
+                    </div>
+                </form>
+            </div>
+            </div>
         </div>
     </div>
 </div>
-<!-- Button trigger modal -->
+
 
 
 <!-- Modal -->
